@@ -1,0 +1,29 @@
+{
+  "name": "mrak",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "glogin": "clasp login",
+    "gclone": "clasp clone 1XvM0obQzPk-iSfCMXoDgCOu-VEKR2YG29cHTKrnYSrF5aLG_ZypzGVLF --rootDir ./app-script",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
+    "start": "parcel src/index.html --dist-dir ./app-script/",
+    "build": "parcel build --dist-dir ./app-script/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@parcel/transformer-sass": "^2.7.0",
+    "@types/google-apps-script": "^1.0.53",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-select": "^5.4.0"
+  }
+}
